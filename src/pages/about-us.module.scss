@@ -1,0 +1,79 @@
+$break-small: 540px;
+$break-medium: 770px;
+$break-large: 1200px;
+
+img {
+  width: 100px;
+  height: 100px;
+}
+
+.icons {
+  margin-left: 44%;
+  @media only screen and (max-width: $break-medium) {
+    margin-left: 42.5%;
+  }
+  @media only screen and (max-width: $break-small) {
+    margin-left: 40%;
+  }
+}
+
+.staffIcon {
+  margin-left: 39%;
+  @media only screen and (max-width: $break-medium) {
+    margin-left: 40.5%;
+  }
+  @media only screen and (max-width: $break-small) {
+    margin-left: 39%;
+  }
+}
+
+.hours {
+  margin-left: 10%;
+  margin-right: 10%;
+  @media only screen and (max-width: $break-medium) {
+    margin-left: 0%;
+    margin-right: 0%;
+    text-align: center;
+  }
+  @media only screen and (max-width: $break-small) {
+    margin-left: 0%;
+    margin-right: 0%;
+    text-align: center;
+  }
+}
+.location {
+  margin-left: 10%;
+
+  @media only screen and (max-width: $break-medium) {
+    margin-left: 0%;
+    text-align: center;
+  }
+  @media only screen and (max-width: $break-small) {
+    margin-left: 0%;
+    text-align: center;
+  }
+}
+
+.staff {
+  line-height: 1.5em;
+
+  @media only screen and (max-width: $break-small) {
+    margin-left: 0%;
+    text-align: center;
+  }
+  @media only screen and (max-width: $break-medium) {
+    margin-left: 0%;
+    text-align: center;
+  }
+}
+
+.section2 {
+  background-color: hsl(0, 0%, 86%);
+}
+
+.boardmembers {
+  text-align: center;
+  span {
+    text-align: center;
+  }
+}

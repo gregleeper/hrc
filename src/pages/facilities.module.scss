@@ -1,0 +1,70 @@
+$break-small: 540px;
+$break-medium: 770px;
+$break-large: 1080px;
+
+h2 {
+  margin: 2rem 2rem;
+  text-align: center;
+}
+
+.mainOffice {
+  h4 {
+    text-align: center;
+  }
+  span {
+    display: block;
+    text-align: center;
+  }
+
+  img {
+    display: block;
+    margin: auto;
+    border-radius: 20%;
+    max-height: 250px;
+    max-width: 375px;
+  }
+  li {
+    margin-left: 35%;
+  }
+  @media only screen and (max-width: $break-medium) {
+    li {
+      margin-left: 30%;
+    }
+  }
+  @media only screen and (max-width: $break-small) {
+    li {
+      margin-left: 20%;
+    }
+  }
+}
+
+.others {
+  margin-top: 2rem;
+  h5 {
+    text-align: center;
+  }
+  span {
+    display: block;
+    text-align: center;
+  }
+  img {
+    display: block;
+    margin: auto;
+    border-radius: 20%;
+    max-height: 250px;
+    max-width: 350px;
+  }
+  li {
+    margin-left: 30%;
+  }
+  @media only screen and (max-width: $break-medium) {
+    li {
+      margin-left: 28%;
+    }
+  }
+  @media only screen and (max-width: $break-small) {
+    li {
+      margin-left: 20%;
+    }
+  }
+}
