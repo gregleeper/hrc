@@ -22,6 +22,7 @@ const Facilities = ({ props }) => {
           "leisure"
         ]}
       />
+      <div />
       <div className="container">
         <h2>Facilities</h2>
         <div className={styles.mainOffice}>
