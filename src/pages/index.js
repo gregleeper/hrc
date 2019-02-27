@@ -1,8 +1,6 @@
 import React from "react";
 import { Link } from "gatsby";
 import bobSosa from "../images/bob-sosa-building.jpg";
-import styles from "./index.module.scss";
-import Slider from "react-slick";
 import Layout from "../components/layout";
 import SEO from "../components/seo";
 
@@ -34,7 +32,7 @@ const IndexPage = () => (
     />
     <section className="section">
       <h3 style={{ textAlign: "center" }}>Current Activities</h3>
-      <div className={`columns ${styles.schedule}`}>
+      <div className={`columns `}>
         <div className="column">
           schedule 1
           <ul>

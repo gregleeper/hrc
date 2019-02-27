@@ -1,7 +1,6 @@
 import React from "react";
 import Layout from "../components/layout";
 import SEO from "../components/seo";
-import styles from "./facilities.module.scss";
 import mainOffice from "../images/main-office-front.jpg";
 import bobSosa from "../images/bob-sosa-building.jpg";
 import parsons from "../images/parsons-end.jpg";
@@ -25,7 +24,7 @@ const Facilities = ({ props }) => {
       <div />
       <div className="container">
         <h2>Facilities</h2>
-        <div className={styles.mainOffice}>
+        <div>
           <figure className="image">
             <img src={mainOffice} alt="Hugoton Rec Main Office Gymnasium" />
           </figure>
@@ -51,7 +50,7 @@ const Facilities = ({ props }) => {
             </ul>
           </ul>
         </div>
-        <div className={`columns is-multiline ${styles.others}`}>
+        <div className={`columns is-multiline `}>
           <div className="column is-half">
             <figure className="image">
               <img src={bobSosa} alt="Hugoton Rec Bob Sosa Memorial Building" />

@@ -1,9 +1,9 @@
 import React from "react";
 import PropTypes from "prop-types";
 import { StaticQuery, graphql } from "gatsby";
-
-import "./all.sass";
-import Navbar from "./navbar";
+//import "./all.sass";
+//import "./layout.scss";
+import Navbar from "../components/globals/Navbar/Navbar";
 
 const Layout = ({ children }) => (
   <StaticQuery
