@@ -9,6 +9,8 @@ export const fontMain = `font-family: 'Tahoma', sans-serif `;
 
 export const transDefault = `transition: all 0.3s ease-in-out`;
 
+export const textSlanted = `font-family: 'Caveat', cursive;`;
+
 export const transFunction = (
   property = `all`,
   time = `0.5s`,

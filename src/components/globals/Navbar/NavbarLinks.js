@@ -58,7 +58,6 @@ class NavbarLinks extends Component {
 const LinkWrapper = styled.ul`
   li {
     list-style-type: none;
-    margin-left: -3rem;
   }
   .nav-link {
     display: block;

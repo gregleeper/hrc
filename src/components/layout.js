@@ -2,7 +2,7 @@ import React from "react";
 import PropTypes from "prop-types";
 import { StaticQuery, graphql } from "gatsby";
 //import "./all.sass";
-//import "./layout.scss";
+import "./layout.scss";
 import Navbar from "../components/globals/Navbar/Navbar";
 
 const Layout = ({ children }) => (
@@ -20,7 +20,7 @@ const Layout = ({ children }) => (
       <>
         <Navbar />
 
-        <div className="content">
+        <div>
           <main>{children}</main>
           <footer>© {new Date().getFullYear()}</footer>
         </div>
