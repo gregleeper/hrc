@@ -1,9 +1,11 @@
 import React from "react";
 import { Link } from "gatsby";
+import styled from "styled-components";
 import bobSosa from "../images/bob-sosa-building.jpg";
 import Layout from "../components/layout";
 import SEO from "../components/seo";
-import { Header, Banner } from "../utils";
+import { Header, Banner, Styles, styles } from "../utils";
+import CurrentActivities from "../components/homePageComponents/currentActivities";
 
 const IndexPage = () => (
   <Layout>
@@ -17,37 +19,29 @@ const IndexPage = () => (
       title="Home"
       keywords={[`hugoton`, `recreation`, `sports`, "activites", "leisure"]}
     />
-    <section className="section">
-      <h3 style={{ textAlign: "center" }}>Current Activities</h3>
-      <div className={`columns `}>
-        <div className="column">
-          schedule 1
-          <ul>
-            <li>date 1</li>
-            <li>date 2</li>
-            <li>date 3</li>
-            <li>date 4</li>
-          </ul>
-        </div>
-
-        <div className="column">
-          schedule 2
-          <ul>
-            <li>date 1</li>
-            <li>date 2</li>
-            <li>date 3</li>
-            <li>date 4</li>
-          </ul>
-        </div>
-      </div>
-    </section>
+    <SectionWrapper className="section">
+      <h2 style={{ textAlign: "center", color: styles.colors.mainBlue }}>
+        Current Activities
+      </h2>
+      <CurrentActivities />
+    </SectionWrapper>
     <hr />
-    <section className="section">
+    <SectionWrapper>
       <div>
-        <h3 style={{ textAlign: "center" }}>Announcements</h3>
+        <h2>Announcements</h2>
       </div>
-    </section>
+    </SectionWrapper>
   </Layout>
 );
+
+const SectionWrapper = styled.section`
+  h2 {
+    color: ${styles.colors.mainBlue};
+    text-align: center;
+    margin-bottom: 0.75rem;
+  }
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+`;
 
 export default IndexPage;
