@@ -19,18 +19,20 @@ const IndexPage = () => (
       title="Home"
       keywords={[`hugoton`, `recreation`, `sports`, "activites", "leisure"]}
     />
-    <SectionWrapper className="section">
-      <h2 style={{ textAlign: "center", color: styles.colors.mainBlue }}>
-        Current Activities
-      </h2>
-      <CurrentActivities />
-    </SectionWrapper>
-    <hr />
-    <SectionWrapper>
-      <div>
-        <h2>Announcements</h2>
-      </div>
-    </SectionWrapper>
+    <div className="container">
+      <SectionWrapper>
+        <div>
+          <h2>Current Activities</h2>
+          <CurrentActivities />
+        </div>
+      </SectionWrapper>
+
+      <SectionWrapper>
+        <div>
+          <h2>Announcements</h2>
+        </div>
+      </SectionWrapper>
+    </div>
   </Layout>
 );
 
@@ -39,9 +41,10 @@ const SectionWrapper = styled.section`
     color: ${styles.colors.mainBlue};
     text-align: center;
     margin-bottom: 0.75rem;
+    font-size: 1.5rem;
   }
-  margin-top: 1rem;
-  margin-bottom: 1rem;
+
+  padding: 3rem;
 `;
 
 export default IndexPage;

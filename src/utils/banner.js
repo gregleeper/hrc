@@ -5,8 +5,8 @@ import { styles } from "../utils";
 const Banner = ({ title, subtitle, children }) => {
   return (
     <BannerWrapper>
-      <h1 className="title">{title}</h1>
-      <h1 className="subtitle">{subtitle}</h1>
+      <h1 className="myTitle">{title}</h1>
+      <h1 className="mySubtitle">{subtitle}</h1>
       {children}
     </BannerWrapper>
   );
@@ -16,17 +16,25 @@ const BannerWrapper = styled.div`
   margin-bottom: 3rem;
   text-align: center;
   color: #fff;
-  .title {
-    font-size: 2rem;
+  .myTitle {
+    font-size: 1.5rem;
     text-transform: uppercase;
     ${styles.letterSpacing({ spacing: "0.35rem" })};
     border-style: solid;
     border-width: thick;
     padding: 1rem;
     margin-bottom: 1rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
   }
-  .subtitle {
+  .mySubtitle {
     ${styles.textSlanted};
+    font-size: 1.25rem;
+  }
+  @media (min-width: 768px) {
+    .myTitle {
+      font-size: 2rem;
+    }
   }
 `;
 

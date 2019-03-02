@@ -2,21 +2,37 @@ import React from "react";
 import { graphql, StaticQuery } from "gatsby";
 import styled from "styled-components";
 import { styles } from "../../utils";
+import moment from "moment";
 
 const CurrentActivities = ({ data }) => (
   <CurrentActivitiesWrapper>
-    {data.schedules ? (
-      data.schedules.edges.map(item => (
-        <Column span={12 / data.schedules.totalCount} key={item.node.id}>
-          <h3>{item.node.frontmatter.title}</h3>
-          <div dangerouslySetInnerHTML={{ __html: item.node.html }} />
-        </Column>
-      ))
-    ) : (
-      <Column span="1">
-        <h3>There are no currently scheduled activities at the moment!</h3>
-      </Column>
-    )}
+    <div className="columns is-multiline">
+      {data.schedules ? (
+        data.schedules.edges.map(item => (
+          <div className="is-parent column is-4" key={item.node.id}>
+            <div className="card">
+              <h3 className="card-header-title center">
+                {item.node.frontmatter.title}
+              </h3>
+              <div
+                className="card-content"
+                dangerouslySetInnerHTML={{ __html: item.node.html }}
+              />
+              <footer className="card-footer">
+                <span className="card-footer-item">
+                  Date Modified:{" "}
+                  {moment(item.node.frontmatter.date).format("MMMM DD, YYYY")}
+                </span>
+              </footer>
+            </div>
+          </div>
+        ))
+      ) : (
+        <div>
+          <h3>There are no currently scheduled activities at the moment!</h3>
+        </div>
+      )}
+    </div>
   </CurrentActivitiesWrapper>
 );
 
@@ -31,6 +47,7 @@ export default props => {
               node {
                 frontmatter {
                   title
+                  date
                 }
                 html
                 id
@@ -46,19 +63,15 @@ export default props => {
 const CurrentActivitiesWrapper = styled.div`
   h3 {
     color: ${styles.colors.mainRed};
+    text-align: center;
+    margin-bottom: 0.5rem;
   }
   &::after {
     content: "";
     clear: both;
     display: table;
   }
-  text-align: center;
-`;
-
-const Column = styled.div`
-  float: left;
-  width: 100%;
-  @media (min-width: 768px) {
-    width: ${props => (props.span ? (props.span / 12) * 100 : "8.33")}%;
+  p {
+    text-align: center;
   }
 `;

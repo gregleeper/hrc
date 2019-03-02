@@ -74,9 +74,9 @@ const LinkWrapper = styled.ul`
       padding: 0.5rem 1rem 0.5rem 1.3rem;
     }
   }
-  height: ${props => (props.open ? "203px" : "0px")};
+  height: ${props => (props.open ? "240px" : "0px")};
   overflow: hidden;
-  ${styles.transObject({ time: "0.7s", type: "linear" })};
+  ${styles.transObject({ time: "0.5s", type: "linear" })};
   @media (min-width: 768px) {
     height: auto;
     display: flex;
