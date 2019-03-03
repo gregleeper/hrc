@@ -20,6 +20,13 @@ module.exports = {
         path: `${__dirname}/schedules`
       }
     },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `announcements`,
+        path: `${__dirname}/announcements`
+      }
+    },
     `gatsby-transformer-remark`,
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sass`,

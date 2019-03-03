@@ -6,6 +6,7 @@ import Layout from "../components/layout";
 import SEO from "../components/seo";
 import { Header, Banner, Styles, styles } from "../utils";
 import CurrentActivities from "../components/homePageComponents/currentActivities";
+import Announcements from "../components/homePageComponents/announcements";
 
 const IndexPage = () => (
   <Layout>
@@ -26,10 +27,11 @@ const IndexPage = () => (
           <CurrentActivities />
         </div>
       </SectionWrapper>
-
+      <hr />
       <SectionWrapper>
         <div>
           <h2>Announcements</h2>
+          <Announcements />
         </div>
       </SectionWrapper>
     </div>

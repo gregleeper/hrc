@@ -9,19 +9,30 @@ const CurrentActivities = ({ data }) => (
     <div className="columns is-multiline">
       {data.schedules ? (
         data.schedules.edges.map(item => (
-          <div className="is-parent column is-4" key={item.node.id}>
+          <div
+            className={`is-parent column is-${
+              12 / data.schedules.totalCount >= 4
+                ? 12 / data.schedules.totalCount
+                : 4
+            }`}
+            key={item.node.childMarkdownRemark.id}
+          >
             <div className="card">
               <h3 className="card-header-title center">
-                {item.node.frontmatter.title}
+                {item.node.childMarkdownRemark.frontmatter.title}
               </h3>
               <div
                 className="card-content"
-                dangerouslySetInnerHTML={{ __html: item.node.html }}
+                dangerouslySetInnerHTML={{
+                  __html: item.node.childMarkdownRemark.html
+                }}
               />
               <footer className="card-footer">
                 <span className="card-footer-item">
                   Date Modified:{" "}
-                  {moment(item.node.frontmatter.date).format("MMMM DD, YYYY")}
+                  {moment(
+                    item.node.childMarkdownRemark.frontmatter.date
+                  ).format("MMMM DD, YYYY")}
                 </span>
               </footer>
             </div>
@@ -41,16 +52,19 @@ export default props => {
     <StaticQuery
       query={graphql`
         query {
-          schedules: allMarkdownRemark {
+          schedules: allFile(
+            filter: { absolutePath: { regex: "/schedules/" } }
+          ) {
             totalCount
             edges {
               node {
-                frontmatter {
-                  title
-                  date
+                childMarkdownRemark {
+                  frontmatter {
+                    title
+                    date
+                  }
+                  html
                 }
-                html
-                id
               }
             }
           }
