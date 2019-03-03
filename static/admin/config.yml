@@ -7,7 +7,7 @@ media_folder: static/assets
 collections:
   - name: schedules
     label: Schedules
-    folder: schedules
+    folder: "schedules"
     create: true
     fields:
       - { name: date, label: Date, widget: date }
@@ -19,5 +19,5 @@ collections:
     create: true
     fields:
       - { name: date, label: Date, widget: date }
-      - { name: subject, label: Subject }
+      - { name: title, label: Subject }
       - { name: body, label: Body, widget: markdown }

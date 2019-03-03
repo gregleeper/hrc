@@ -74,4 +74,7 @@ const CurrentActivitiesWrapper = styled.div`
   p {
     text-align: center;
   }
+  span {
+    font-size: 0.75rem;
+  }
 `;
