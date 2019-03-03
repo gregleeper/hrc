@@ -1,21 +1,16 @@
 import React from "react";
 import { Link } from "gatsby";
 import styled from "styled-components";
-import bobSosa from "../images/bob-sosa-building.jpg";
 import Layout from "../components/layout";
 import SEO from "../components/seo";
-import { Header, Banner, Styles, styles } from "../utils";
+import { StyledBackgroundSection, Styles, styles } from "../utils";
 import CurrentActivities from "../components/homePageComponents/currentActivities";
 import Announcements from "../components/homePageComponents/announcements";
+//import BobSosaImage from "../components/facilitiesComponents/bobSosaImage";
 
 const IndexPage = () => (
   <Layout>
-    <Header img={bobSosa}>
-      <Banner
-        title="Hugoton Recreation Commission"
-        subtitle="Proudly supporting the community of Hugoton"
-      />
-    </Header>
+    <StyledBackgroundSection />
     <SEO
       title="Home"
       keywords={[`hugoton`, `recreation`, `sports`, "activites", "leisure"]}

@@ -1,5 +1,5 @@
 import * as styles from "./styles";
-import Header from "./header";
+import StyledBackgroundSection from "./header";
 import Banner from "./banner";
 
-export { styles, Header, Banner };
+export { styles, StyledBackgroundSection, Banner };

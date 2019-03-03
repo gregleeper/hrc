@@ -23,6 +23,7 @@ const BannerWrapper = styled.div`
     border-style: solid;
     border-width: thick;
     padding: 1rem;
+    margin-top: 4rem;
     margin-bottom: 1rem;
     margin-left: 0.5rem;
     margin-right: 0.5rem;
