@@ -8,7 +8,7 @@ const MainOfficeImage = () => (
       query {
         placeholderImage: file(relativePath: { eq: "main-office-front.jpg" }) {
           childImageSharp {
-            fluid(maxWidth: 700) {
+            fluid(maxWidth: 1200) {
               ...GatsbyImageSharpFluid
             }
           }

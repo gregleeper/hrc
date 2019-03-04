@@ -15,7 +15,7 @@ const BackgroundSection = ({
       query {
         bobSosa: file(relativePath: { eq: "bob-sosa-building.jpg" }) {
           childImageSharp {
-            fluid(quality: 100, maxWidth: 1200) {
+            fluid(quality: 100, maxWidth: 1800) {
               ...GatsbyImageSharpFluid_withWebp_noBase64
             }
           }
@@ -57,6 +57,7 @@ const StyledBackgroundSection = styled(BackgroundSection)`
   display: flex;
   align-items: center;
   justify-content: center;
+  background-repeat: repeat-y;
 `;
 
 export default StyledBackgroundSection;

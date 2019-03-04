@@ -8,7 +8,7 @@ const PatConcannonFieldsImage = () => (
       query {
         placeholderImage: file(relativePath: { eq: "parsons-end.jpg" }) {
           childImageSharp {
-            fluid(maxWidth: 300) {
+            fluid(maxWidth: 900) {
               ...GatsbyImageSharpFluid
             }
           }

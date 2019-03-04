@@ -8,7 +8,7 @@ const PoolImage = () => (
       query {
         placeholderImage: file(relativePath: { eq: "pool-front.jpg" }) {
           childImageSharp {
-            fluid(maxWidth: 300) {
+            fluid(maxWidth: 900) {
               ...GatsbyImageSharpFluid
             }
           }

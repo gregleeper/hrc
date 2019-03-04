@@ -8,7 +8,7 @@ const BobSosaImage = () => (
       query {
         placeholderImage: file(relativePath: { eq: "bob-sosa-building.jpg" }) {
           childImageSharp {
-            fluid(maxWidth: 300) {
+            fluid(maxWidth: 900) {
               ...GatsbyImageSharpFluid
             }
           }
