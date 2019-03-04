@@ -25,8 +25,8 @@ const BannerWrapper = styled.div`
     padding: 1rem;
     margin-top: 4rem;
     margin-bottom: 1rem;
-    margin-left: 0.5rem;
-    margin-right: 0.5rem;
+    margin-left: 4rem;
+    margin-right: 4rem;
   }
   .mySubtitle {
     ${styles.textSlanted};

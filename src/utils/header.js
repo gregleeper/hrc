@@ -41,6 +41,8 @@ const StyledBackgroundSection = styled(BackgroundSection)`
   width: 100%;
   min-height: calc(70vh - 52px);
   background-repeat: repeat-y;
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(${props => props.img}) center/cover fixed no-repeat;
 `;
 
 export default StyledBackgroundSection;
