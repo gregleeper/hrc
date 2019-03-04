@@ -4,14 +4,19 @@ import styled from "styled-components";
 import BackgroundImage from "gatsby-background-image";
 import Banner from "./banner";
 
-const BackgroundSection = ({ className }) => (
+const BackgroundSection = ({
+  objFit = `cover`,
+  objPosition = `50% 50%`,
+  className,
+  ...props
+}) => (
   <StaticQuery
     query={graphql`
       query {
         bobSosa: file(relativePath: { eq: "bob-sosa-building.jpg" }) {
           childImageSharp {
             fluid(quality: 100, maxWidth: 1200) {
-              src
+              ...GatsbyImageSharpFluid_withWebp_noBase64
             }
           }
         }
@@ -26,6 +31,12 @@ const BackgroundSection = ({ className }) => (
           className={className}
           fluid={imageData}
           backgroundColor={`#040e18`}
+          imgStyle={{
+            ...props.imgStyle,
+            objectFit: objFit,
+            objectPosition: objPosition,
+            fontFamily: `"object-fit: ${objFit}; object-position: ${objPosition}"`
+          }}
         >
           <Banner
             title="Hugoton Recreation Commission"
