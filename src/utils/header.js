@@ -10,8 +10,11 @@ const BackgroundSection = ({ className }) => (
       query {
         bobSosa: file(relativePath: { eq: "bob-sosa-building.jpg" }) {
           childImageSharp {
-            fluid(quality: 70, maxWidth: 1200) {
-              ...GatsbyImageSharpFluid_noBase64
+            fluid(quality: 100, maxWidth: 1200) {
+              ...GatsbyImageSharpFluid
+            }
+            fixed {
+              base64
             }
           }
         }
