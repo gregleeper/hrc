@@ -11,7 +11,7 @@ const BackgroundSection = ({ className }) => (
         bobSosa: file(relativePath: { eq: "bob-sosa-building.jpg" }) {
           childImageSharp {
             fluid(quality: 70, maxWidth: 1200) {
-              ...GatsbyImageSharpFluid_withWebp_tracedSVG
+              ...GatsbyImageSharpFluid_noBase64
             }
           }
         }
