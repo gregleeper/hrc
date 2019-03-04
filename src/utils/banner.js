@@ -25,12 +25,11 @@ const BannerWrapper = styled.div`
     padding: 1rem;
     margin-top: 4rem;
     margin-bottom: 1rem;
-    margin-left: 4rem;
-    margin-right: 4rem;
   }
   .mySubtitle {
     ${styles.textSlanted};
     font-size: 1.25rem;
+    font-weight: bold;
   }
   @media (min-width: 768px) {
     .myTitle {

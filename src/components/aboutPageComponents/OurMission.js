@@ -32,6 +32,8 @@ const OurMissionWrapper = styled.div`
   }
   p {
     text-align: center;
+    margin-left: 10rem;
+    margin-right: 10rem;
   }
   span {
     font-size: 0.75rem;

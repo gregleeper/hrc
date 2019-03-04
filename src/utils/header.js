@@ -54,6 +54,9 @@ const StyledBackgroundSection = styled(BackgroundSection)`
   background-repeat: repeat-y;
   background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
     url(${props => props.img}) center/cover fixed no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 `;
 
 export default StyledBackgroundSection;

@@ -23,9 +23,9 @@ const OfficeHours = () => {
         </div>
         <div className={`column`}>
           <p>Monday - Friday 8:00 a.m. - 5:00 p.m.</p>
-          <br />
+
           <p>Closed all government holidays</p>
-          <br />
+
           <p>See office for open gym schedule.</p>
         </div>
       </div>
