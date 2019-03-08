@@ -1,13 +1,20 @@
 import React, { Component } from "react";
 import Layout from "../components/layout";
 import SEO from "../components/seo";
+import SpringSports from "../components/sportsComponents/springSports";
+import SummerSports from "../components/sportsComponents/summerSports";
+
 class SportsPage extends Component {
-  state = {};
   render() {
     return (
       <Layout>
         <SEO title="Sports" />
-        <div>Sports</div>
+        <div className="container">
+          <div className="tile is-ancestor" style={{ marginTop: "3rem" }}>
+            <SpringSports />
+            <SummerSports />
+          </div>
+        </div>
       </Layout>
     );
   }

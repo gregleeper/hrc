@@ -3,7 +3,7 @@ import { Link } from "gatsby";
 import styled from "styled-components";
 import Layout from "../components/layout";
 import SEO from "../components/seo";
-import { StyledBackgroundSection, Styles, styles } from "../utils";
+import { StyledBackgroundSection, styles } from "../utils";
 import CurrentActivities from "../components/homePageComponents/currentActivities";
 import Announcements from "../components/homePageComponents/announcements";
 //import BobSosaImage from "../components/facilitiesComponents/bobSosaImage";

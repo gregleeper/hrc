@@ -5,9 +5,8 @@ import { styles } from "../utils";
 const Banner = ({ title, subtitle, children }) => {
   return (
     <BannerWrapper>
-      <h1 className="myTitle">{title}</h1>
-      <h1 className="mySubtitle">{subtitle}</h1>
-      {children}
+      <h1 className="myTitle"> {title} </h1>{" "}
+      <h1 className="mySubtitle"> {subtitle} </h1> {children}{" "}
     </BannerWrapper>
   );
 };
@@ -18,6 +17,7 @@ const BannerWrapper = styled.div`
   color: #fff;
   .myTitle {
     font-size: 1.5rem;
+    font-weight: bold;
     text-transform: uppercase;
     ${styles.letterSpacing({ spacing: "0.35rem" })};
     border-style: solid;
