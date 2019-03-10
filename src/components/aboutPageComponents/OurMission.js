@@ -32,11 +32,18 @@ const OurMissionWrapper = styled.div`
   }
   p {
     text-align: center;
-    margin-left: 10rem;
-    margin-right: 10rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
   }
   span {
     font-size: 0.75rem;
+  }
+  @media (min-width: 768px) {
+    p {
+      text-align: center;
+      margin-left: 10rem;
+      margin-right: 10rem;
+    }
   }
 `;
 

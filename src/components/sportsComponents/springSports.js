@@ -2,66 +2,65 @@ import React from "react";
 import styled from "styled-components";
 import { styles } from "../../utils";
 
-const SpringSports = () => {
+const SpringSportsData = () => {
   return (
     <SpringSportsWrapper>
-      <div className="tile is-parent is-vertical">
-        <div className="tile is-child box">
-          <h3> Spring Youth Sports </h3>
-          <div className="tile is-vertical is-parent">
-            <div className="tile is-child box">
-              <h3> Youth Soccer </h3>
-              <p> Co - Ed Grades 3rd through 6th </p>
-              <p>
-                {" "}
-                <strong>Sign ups begin early March</strong>{" "}
-              </p>
-              <p> $15, includes team shirt and shin guards </p>
-            </div>
-            <div className="tile is-child box">
-              <h3> Baseball </h3> <h6> Machine Pitch </h6> <p> Ages 7 - 9 </p>
-              <h6> Cal Ripken </h6> <p> Ages 10 - 12 </p>
-              <p> $15, includes pants, team shirt & hat </p>
-              <p> $10, includes shirt & hat only </p> <h6> Babe Ruth </h6>
-              <p> Ages 13 - 15 </p>{" "}
-              <p> $20, includes pants, team shirt & hat </p>
-              <p> $10, includes shirt & hat only </p>
-              <br />
-              <p>
-                <strong>Sign ups begin mid-April</strong>
-              </p>
-              <p>
-                Birthday cutoff is April 30. Must provide copy of birth
-                certificate.
-              </p>
-            </div>
-            <div className="tile is-child box">
-              <h3>Softball</h3>
-              <h6>Pee Wee Softball</h6>
-              <p>Grades 1st-3rd</p>
-              <h6>Junior Softball</h6>
-              <p>Grades 4th-6th</p>
-              <p>$10, includes team shirt & hat</p>
-              <h6>Fast Pitch Softball</h6>
-              <p>14 and under</p>
-              <p>$20, includes shorts, team shirt & hat</p>
-              <p>$10, for team shirt & hat only</p>
-              <br />
-              <p>
-                <strong>Sign ups begin mid-April</strong>{" "}
-              </p>
-              <p>Grade determined by grade completed</p>
-            </div>
-            <div className="tile is-child box">
-              <h3>T-Ball & Blast Ball</h3>
-              <p>
-                <strong>
-                  T-Ball and Blast Ball sign ups take place in early March
-                </strong>
-              </p>
-              <p>Co-Ed ages 5-6</p>
-              <p>$10, includes team shirt & hat</p>
-            </div>
+      <h3> Spring Youth Sports </h3>
+      <div className="tile is-ancestor">
+        <div className="tile is-parent is-vertical is-6">
+          <div className="tile is-child box">
+            <h3> Youth Soccer </h3>
+            <p> Co - Ed Grades 3rd through 6th </p>
+            <p>
+              {" "}
+              <strong>Sign ups begin early March</strong>{" "}
+            </p>
+            <p> $15, includes team shirt and shin guards </p>
+          </div>
+          <div className="tile is-child box">
+            <h3> Baseball </h3> <h6> Machine Pitch </h6> <p> Ages 7 - 9 </p>
+            <h6> Cal Ripken </h6> <p> Ages 10 - 12 </p>
+            <p> $15, includes pants, team shirt & hat </p>
+            <p> $10, includes shirt & hat only </p> <h6> Babe Ruth </h6>
+            <p> Ages 13 - 15 </p> <p> $20, includes pants, team shirt & hat </p>
+            <p> $10, includes shirt & hat only </p>
+            <br />
+            <p>
+              <strong>Sign ups begin mid-April</strong>
+            </p>
+            <p>
+              Birthday cutoff is April 30. Must provide copy of birth
+              certificate.
+            </p>
+          </div>
+        </div>
+        <div className="tile is-parent is-vertical is-6">
+          <div className="tile is-child box">
+            <h3>Softball</h3>
+            <h6>Pee Wee Softball</h6>
+            <p>Grades 1st-3rd</p>
+            <h6>Junior Softball</h6>
+            <p>Grades 4th-6th</p>
+            <p>$10, includes team shirt & hat</p>
+            <h6>Fast Pitch Softball</h6>
+            <p>14 and under</p>
+            <p>$20, includes shorts, team shirt & hat</p>
+            <p>$10, for team shirt & hat only</p>
+            <br />
+            <p>
+              <strong>Sign ups begin mid-April</strong>{" "}
+            </p>
+            <p>Grade determined by grade completed</p>
+          </div>
+          <div className="tile is-child box">
+            <h3>T-Ball & Blast Ball</h3>
+            <p>
+              <strong>
+                T-Ball and Blast Ball sign ups take place in early March
+              </strong>
+            </p>
+            <p>Co-Ed ages 5-6</p>
+            <p>$10, includes team shirt & hat</p>
           </div>
         </div>
       </div>
@@ -100,4 +99,4 @@ const SpringSportsWrapper = styled.div`
   }
 `;
 
-export default SpringSports;
+export default SpringSportsData;

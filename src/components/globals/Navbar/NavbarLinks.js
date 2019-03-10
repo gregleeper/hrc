@@ -23,7 +23,7 @@ class NavbarLinks extends Component {
       },
       {
         id: 3,
-        path: "/sports",
+        path: "/sports/spring-sports",
         name: "Sports"
       },
       {
