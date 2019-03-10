@@ -8,7 +8,9 @@ class LeisurePage extends Component {
     return (
       <Layout>
         <SEO title="Leisure" />
-        <LeisureData />
+        <div className="container">
+          <LeisureData />
+        </div>
       </Layout>
     );
   }

@@ -5,16 +5,7 @@ import { styles } from "../../utils";
 const LeisureData = () => {
   return (
     <LeisureWrapper>
-      <h1
-        style={{
-          fontSize: "1.75rem",
-          color: `${styles.colors.mainBlue}`,
-          textAlign: "center",
-          marginTop: "1.5rem"
-        }}
-      >
-        Leisure Activities
-      </h1>
+      <h1>Leisure Activities</h1>
       <div className="tile is-ancesctor">
         <div className="tile is-parent is-vertical is-6">
           <div className="tile is-child box">
@@ -61,6 +52,12 @@ const LeisureData = () => {
   );
 };
 const LeisureWrapper = styled.div`
+  h1 {
+    font-size: 1.75rem;
+    color: ${styles.colors.mainBlue};
+    text-align: center;
+    margin-top: 1.5rem;
+  }
   h3 {
     color: ${styles.colors.mainRed};
     font-size: 1.5rem;
@@ -85,6 +82,7 @@ const LeisureWrapper = styled.div`
     font-size: 0.75rem;
   }
   margin-bottom: 3rem;
+  margin-top: 1rem;
 `;
 
 export default LeisureData;

@@ -5,31 +5,33 @@ import { styles } from "../../utils";
 const FallSportsData = () => {
   return (
     <FallSportsWrapper>
-      <h3>Fall Youth Sports</h3>
-      <p>
-        <strong>Sign ups mid-August</strong>
-      </p>
-      <div className="tile is-ancestor">
-        <div className="tile is-parent is-vertical is-6">
-          <div className="tile is-child box">
-            <h3>Volleyball</h3>
-            <p>Grades 3rd through 6th</p>
-            <p>Cost: $15 includes team shirt and knee pads</p>
+      <div className="container">
+        <h1>Fall Youth Sports</h1>
+        <p>
+          <strong>Sign ups mid-August</strong>
+        </p>
+        <div className="tile is-ancestor">
+          <div className="tile is-parent is-vertical is-6">
+            <div className="tile is-child box">
+              <h3>Volleyball</h3>
+              <p>Grades 3rd through 6th</p>
+              <p>Cost: $15 includes team shirt and knee pads</p>
+            </div>
+            <div className="tile is-child box">
+              <h3>Fall Youth Soccer</h3>
+              <p>Co-Ed Kindergarten through 2nd grade</p>
+              <p>Cost: $15 includes team shirt and shin guards</p>
+            </div>
           </div>
-          <div className="tile is-child box">
-            <h3>Fall Youth Soccer</h3>
-            <p>Co-Ed Kindergarten through 2nd grade</p>
-            <p>Cost: $15 includes team shirt and shin guards</p>
-          </div>
-        </div>
-        <div className="tile is-parent is-vertical is-6">
-          <div className="tile is-child box">
-            <h3>Tackle Football</h3>
-            <p>3rd through 6th grade</p>
-            <p>
-              Cost: $25 program fee <br /> $25 rental deposit-returned upon
-              equipment check in
-            </p>
+          <div className="tile is-parent is-vertical is-6">
+            <div className="tile is-child box">
+              <h3>Tackle Football</h3>
+              <p>3rd through 6th grade</p>
+              <p>
+                Cost: $25 program fee <br /> $25 rental deposit-returned upon
+                equipment check in
+              </p>
+            </div>
           </div>
         </div>
       </div>
@@ -38,6 +40,12 @@ const FallSportsData = () => {
 };
 
 const FallSportsWrapper = styled.div`
+  h1 {
+    font-size: 1.75rem;
+    color: ${styles.colors.mainBlue};
+    text-align: center;
+    margin-top: 1.5rem;
+  }
   h3 {
     color: ${styles.colors.mainRed};
     font-size: 1.5rem;
@@ -62,6 +70,9 @@ const FallSportsWrapper = styled.div`
     font-size: 0.75rem;
   }
   margin-bottom: 3rem;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+  margin-top: 1rem;
 `;
 
 export default FallSportsData;

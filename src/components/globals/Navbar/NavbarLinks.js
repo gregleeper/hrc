@@ -63,7 +63,7 @@ const LinkWrapper = styled.ul`
     display: block;
     text-decoration: none;
     padding: 0.5rem 1rem;
-    color: ${styles.colors.mainGray};
+    color: ${styles.colors.mainBlue};
     font-weight: 700;
     text-transform: capitalize;
     cursor: pointer;

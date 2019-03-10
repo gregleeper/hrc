@@ -23,28 +23,30 @@ class SportsPage extends Component {
             "hugoton"
           ]}
         />
-        <div className="container">
-          <div className="tabs is-centered is-boxed">
-            <ul>
-              <li className="is-active">
-                <Link to="/sports/spring-sports">Spring</Link>
-              </li>
-              <li>
-                <Link to="/sports/summer-sports">Summer</Link>
-              </li>
-              <li>
-                <Link to="/sports/fall-sports">Fall</Link>
-              </li>
-              <li>
-                <Link to="/sports/winter-sports">Winter</Link>
-              </li>
-              <li>
-                <Link to="/sports/adult-sports">Adult</Link>
-              </li>
-            </ul>
-          </div>
-          <SpringSportsData />
+
+        <div
+          className="tabs is-centered is-boxed"
+          style={{ marginTop: "1rem" }}
+        >
+          <ul>
+            <li className="is-active">
+              <Link to="/sports/spring-sports">Spring</Link>
+            </li>
+            <li>
+              <Link to="/sports/summer-sports">Summer</Link>
+            </li>
+            <li>
+              <Link to="/sports/fall-sports">Fall</Link>
+            </li>
+            <li>
+              <Link to="/sports/winter-sports">Winter</Link>
+            </li>
+            <li>
+              <Link to="/sports/adult-sports">Adult</Link>
+            </li>
+          </ul>
         </div>
+        <SpringSportsData />
       </Layout>
     );
   }
