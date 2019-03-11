@@ -7,6 +7,7 @@ import Banner from "./banner";
 const BackgroundSection = ({
   objFit = `cover`,
   objPosition = `50% 50%`,
+  Children,
   className,
   ...props
 }) => (
@@ -26,30 +27,34 @@ const BackgroundSection = ({
       // Set ImageData.
       const imageData = data.bobSosa.childImageSharp.fluid;
       return (
-        <BackgroundImage
-          Tag="section"
-          className={className}
-          fluid={imageData}
-          backgroundColor={`#000`}
-          imgStyle={{
-            ...props.imgStyle,
-            objectFit: objFit,
-            objectPosition: objPosition,
-            fontFamily: `"object-fit: ${objFit}; object-position: ${objPosition}"`
-          }}
-        >
-          <Banner
-            title="Hugoton Recreation Commission"
-            subtitle="Proudly supporting the community of Hugoton"
-          />
-        </BackgroundImage>
+        <StyledWrapper>
+          <BackgroundImage
+            Tag="section"
+            className={className}
+            fluid={imageData}
+            backgroundColor={`#000`}
+            classId="gbi"
+            imgStyle={{
+              ...props.imgStyle,
+              objectFit: objFit,
+              objectPosition: objPosition,
+              fontFamily: `"object-fit: ${objFit}; object-position: ${objPosition}"`
+            }}
+          >
+            {Children}
+            <Banner
+              title="Hugoton Recreation Commission"
+              subtitle="Proudly supporting the community of Hugoton"
+            />
+          </BackgroundImage>
+        </StyledWrapper>
       );
     }}
   />
 );
 
 const StyledBackgroundSection = styled(BackgroundSection)`
-  width: 100%;
+  width: 100vw;
   min-height: calc(70vh - 52px);
   background-repeat: repeat-y;
   background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
@@ -57,7 +62,12 @@ const StyledBackgroundSection = styled(BackgroundSection)`
   display: flex;
   align-items: center;
   justify-content: center;
-  background-repeat: repeat-y;
+`;
+
+const StyledWrapper = styled.div`
+  .gatsby-background-image-gbi:after {
+    background-repeat: repeat-y;
+  }
 `;
 
 export default StyledBackgroundSection;

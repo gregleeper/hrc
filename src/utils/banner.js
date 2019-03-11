@@ -30,6 +30,9 @@ const BannerWrapper = styled.div`
     ${styles.textSlanted};
     font-size: 1.25rem;
     font-weight: bold;
+    background: rgba(255, 0, 0, 0.5);
+    margin-left: 10rem;
+    margin-right: 10rem;
   }
   @media (min-width: 768px) {
     .myTitle {
