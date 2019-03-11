@@ -9,7 +9,17 @@ class AdultSportsPage extends Component {
   render() {
     return (
       <Layout>
-        <SEO title="Sports" />
+        <SEO
+          title="Sports"
+          keywords={[
+            "tumbling",
+            "gymnastics",
+            "cheerleading",
+            "safety",
+            "arts",
+            "crafts"
+          ]}
+        />
 
         <div
           className="tabs is-centered is-boxed"

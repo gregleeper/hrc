@@ -30,7 +30,7 @@ const BackgroundSection = ({
           Tag="section"
           className={className}
           fluid={imageData}
-          backgroundColor={`#040e18`}
+          backgroundColor={`#000`}
           imgStyle={{
             ...props.imgStyle,
             objectFit: objFit,
