@@ -19,24 +19,31 @@ const BannerWrapper = styled.div`
     font-size: 1.5rem;
     font-weight: bold;
     text-transform: uppercase;
+    background: rgba(255, 0, 0, 0.4);
     ${styles.letterSpacing({ spacing: "0.35rem" })};
     border-style: solid;
     border-width: thick;
     padding: 1rem;
     margin-top: 4rem;
     margin-bottom: 1rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
   }
   .mySubtitle {
     ${styles.textSlanted};
     font-size: 1.25rem;
     font-weight: bold;
-    background: rgba(255, 0, 0, 0.5);
-    margin-left: 10rem;
-    margin-right: 10rem;
+    background: rgba(255, 0, 0, 0.4);
+    margin-left: 4rem;
+    margin-right: 4rem;
   }
   @media (min-width: 768px) {
     .myTitle {
       font-size: 2rem;
+    }
+    .mySubtitle {
+      margin-left: 10rem;
+      margin-right: 10rem;
     }
   }
 `;
