@@ -62,7 +62,11 @@ const StyledBackgroundSection = styled(BackgroundSection)`
   display: flex;
   align-items: center;
   justify-content: center;
-  opacity: none !important;
+
+  .gatsby-background-image-gbi:after {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+      url(${props => props.img}) center/cover fixed no-repeat !important;
+  }
 `;
 
 const StyledWrapper = styled.div`
