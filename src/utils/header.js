@@ -56,13 +56,13 @@ const BackgroundSection = ({
 const StyledBackgroundSection = styled(BackgroundSection)`
   width: 100vw;
   min-height: calc(70vh - 52px);
-  background-repeat: repeat-y;
+  background-repeat: repeat-y !important;
   background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
     url(${props => props.img}) center/cover fixed no-repeat !important;
   display: flex;
   align-items: center;
   justify-content: center;
-  opacity: none;
+  opacity: none !important;
 `;
 
 const StyledWrapper = styled.div`
