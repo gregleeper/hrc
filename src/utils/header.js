@@ -62,6 +62,7 @@ const StyledBackgroundSection = styled(BackgroundSection)`
   display: flex;
   align-items: center;
   justify-content: center;
+  opacity: none;
 `;
 
 const StyledWrapper = styled.div`
