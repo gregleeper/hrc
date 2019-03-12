@@ -58,7 +58,7 @@ const StyledBackgroundSection = styled(BackgroundSection)`
   min-height: calc(70vh - 52px);
   background-repeat: repeat-y;
   background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-    url(${props => props.img}) center/cover fixed no-repeat;
+    url(${props => props.img}) center/cover fixed no-repeat !important;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -66,7 +66,7 @@ const StyledBackgroundSection = styled(BackgroundSection)`
 
 const StyledWrapper = styled.div`
   .gatsby-background-image-gbi:after {
-    background-repeat: repeat-y;
+    background-repeat: repeat-y !important;
   }
 `;
 
