@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "gatsby";
 import Layout from "../components/layout";
 import { styles } from "../utils";
 import SEO from "../components/seo";
@@ -35,7 +34,6 @@ const AboutUs = () => (
     <section className="section">
       <Board />
     </section>
-    <Link to="/">Go back to the homepage</Link>
   </Layout>
 );
 

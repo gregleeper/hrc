@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import Layout from "../../components/layout";
 import SEO from "../../components/seo";
 import PoolData from "../../components/summerComponents/pool";
+import PoolHours from "../../components/summerComponents/poolInfo";
 import { Link } from "gatsby";
 class SwimmingPool extends Component {
   render() {
@@ -25,6 +26,7 @@ class SwimmingPool extends Component {
           </ul>
         </div>
         <PoolData />
+        <PoolHours />
       </Layout>
     );
   }
