@@ -57,42 +57,22 @@ const StyledBackgroundSection = styled(BackgroundSection)`
   min-height: calc(70vh - 52px);
   background-repeat: repeat-y !important;
   background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-    url(${props => props.img}) center/cover fixed !important;
+    url(${props => props.img}) center/cover fixed no-repeat !important;
   display: flex;
   align-items: center;
   justify-content: center;
+
+  .gatsby-background-image-gbi:after {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+      url(${props => props.img}) center/cover fixed no-repeat !important;
+  }
 `;
 
 const StyledWrapper = styled.div`
   .gatsby-background-image-gbi:after {
     background-repeat: repeat-y !important;
+    z-index: 0;
   }
 `;
 
 export default StyledBackgroundSection;
-
-// import React from "react";
-// import Image from "gatsby-background-image";
-// import styled from "styled-components";
-// import BobSosaImage from "../components/facilitiesComponents/bobSosaImage";
-
-// const Header = ({ img, children }) => {
-//   return (
-//     <Image>
-//       <BobSosaImage />
-//     </Image>
-//   );
-// };
-
-// // const IndexHeader = styled.header`
-// //   min-height: calc(45vh - 52px);
-// //   left: 0;
-// //   right: 0;
-// //   background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-// //     url(${props => props.img}) center/cover fixed no-repeat;
-// //   display: flex;
-// //   justify-content: center;
-// //   align-items: center;
-// // `;
-
-// export default Header;
