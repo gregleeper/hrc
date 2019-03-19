@@ -18,15 +18,16 @@ const IndexPage = () => (
     <div className="container">
       <SectionWrapper>
         <div>
-          <h2>Current Activities</h2>
-          <CurrentActivities />
+          <h2>Announcements</h2>
+
+          <Announcements />
         </div>
       </SectionWrapper>
       <hr />
       <SectionWrapper>
         <div>
-          <h2>Announcements</h2>
-          <Announcements />
+          <h2>Current Activities</h2>
+          <CurrentActivities />
         </div>
       </SectionWrapper>
     </div>
@@ -38,7 +39,7 @@ const SectionWrapper = styled.section`
     color: ${styles.colors.mainBlue};
     text-align: center;
     margin-bottom: 0.75rem;
-    font-size: 1.5rem;
+    font-size: 1.7rem;
   }
 
   padding: 3rem;

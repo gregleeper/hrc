@@ -15,8 +15,12 @@ const SwimLessonsData = () => {
           Sessions run Monday - Thursday each week for two weeks. Fridays will
           be used for make up days.
         </p>
-        <p>Session 1: min-June througn late-June</p>
-        <p>Session 2: early-July through mid-July</p>
+        <p>
+          <strong>Session 1:</strong> mid-June through late-June
+        </p>
+        <p>
+          <strong>Session 2:</strong> early-July through mid-July
+        </p>
         <br />
         <div className="tile is-ancestor">
           <div className="tile is-parent is-vertical is-6">

@@ -54,11 +54,13 @@ export default props => {
         query {
           schedules: allFile(
             filter: { absolutePath: { regex: "/schedules/" } }
+            sort: { fields: [birthtime], order: DESC }
           ) {
             totalCount
             edges {
               node {
                 childMarkdownRemark {
+                  id
                   frontmatter {
                     title
                     date
