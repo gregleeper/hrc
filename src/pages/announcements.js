@@ -68,7 +68,7 @@ export default props => {
         query {
           announcements: allFile(
             filter: { absolutePath: { regex: "/announcements/" } }
-            sort: { fields: [birthtimeMs], order: DESC }
+            sort: { fields: [mtimeMs], order: DESC }
           ) {
             totalCount
             edges {
