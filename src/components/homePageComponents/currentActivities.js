@@ -15,24 +15,22 @@ const CurrentActivities = ({ data }) => (
                 ? 12 / data.schedules.totalCount
                 : 4
             }`}
-            key={item.node.childMarkdownRemark.id}
+            key={item.node.id}
           >
             <div className="card">
               <h3 className="card-header-title center">
-                {item.node.childMarkdownRemark.frontmatter.title}
+                {item.node.frontmatter.title}
               </h3>
               <div
                 className="card-content"
                 dangerouslySetInnerHTML={{
-                  __html: item.node.childMarkdownRemark.html
+                  __html: item.node.html
                 }}
               />
               <footer className="card-footer">
                 <span className="card-footer-item">
                   Date Modified:{" "}
-                  {moment(
-                    item.node.childMarkdownRemark.frontmatter.date
-                  ).format("MMMM DD, YYYY")}
+                  {moment(item.node.frontmatter.date).format("MMMM DD, YYYY")}
                 </span>
               </footer>
             </div>
@@ -52,21 +50,19 @@ export default props => {
     <StaticQuery
       query={graphql`
         query {
-          schedules: allFile(
-            filter: { absolutePath: { regex: "/schedules/" } }
-            sort: { fields: [birthtime], order: DESC }
+          schedules: allMarkdownRemark(
+            filter: { fileAbsolutePath: { regex: "/schedules/" } }
+            sort: { fields: [frontmatter___date], order: DESC }
           ) {
             totalCount
             edges {
               node {
-                childMarkdownRemark {
-                  id
-                  frontmatter {
-                    title
-                    date
-                  }
-                  html
+                id
+                frontmatter {
+                  title
+                  date
                 }
+                html
               }
             }
           }

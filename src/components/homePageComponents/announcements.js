@@ -14,26 +14,23 @@ class Announcements extends Component {
         <div className="columns is-multiline">
           {data.announcements ? (
             data.announcements.edges.map(item => (
-              <div
-                className="is-parent column is-12"
-                key={item.node.childMarkdownRemark.id}
-              >
+              <div className="is-parent column is-12" key={item.node.id}>
                 <div className="card">
                   <h3 className="card-header-title center">
-                    {item.node.childMarkdownRemark.frontmatter.title}
+                    {item.node.frontmatter.title}
                   </h3>
                   <div
                     className="card-content"
                     dangerouslySetInnerHTML={{
-                      __html: item.node.childMarkdownRemark.html
+                      __html: item.node.html
                     }}
                   />
                   <footer className="card-footer">
                     <span className="card-footer-item">
                       Date Modified:{" "}
-                      {moment(
-                        item.node.childMarkdownRemark.frontmatter.date
-                      ).format("MMMM DD, YYYY")}
+                      {moment(item.node.frontmatter.date).format(
+                        "MMMM DD, YYYY"
+                      )}
                     </span>
                   </footer>
                 </div>
@@ -60,23 +57,20 @@ export default props => {
     <StaticQuery
       query={graphql`
         query {
-          announcements: allFile(
+          announcements: allMarkdownRemark(
             limit: 3
-
-            filter: { absolutePath: { regex: "/announcements/" } }
-            sort: { fields: [birthtimeMs], order: DESC }
+            filter: { fileAbsolutePath: { regex: "/announcements/" } }
+            sort: { fields: [frontmatter___date], order: DESC }
           ) {
             totalCount
             edges {
               node {
-                childMarkdownRemark {
-                  id
-                  frontmatter {
-                    title
-                    date
-                  }
-                  html
+                id
+                frontmatter {
+                  title
+                  date
                 }
+                html
               }
             }
           }
