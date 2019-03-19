@@ -35,7 +35,6 @@ const BackgroundSection = ({
             backgroundColor={`#000`}
             classId="gbi"
             imgStyle={{
-              ...props.imgStyle,
               objectFit: objFit,
               objectPosition: objPosition,
               fontFamily: `"object-fit: ${objFit}; object-position: ${objPosition}"`
@@ -58,15 +57,10 @@ const StyledBackgroundSection = styled(BackgroundSection)`
   min-height: calc(70vh - 52px);
   background-repeat: repeat-y !important;
   background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-    url(${props => props.img}) center/cover fixed no-repeat !important;
+    url(${props => props.img}) center/cover fixed !important;
   display: flex;
   align-items: center;
   justify-content: center;
-
-  .gatsby-background-image-gbi:after {
-    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-      url(${props => props.img}) center/cover fixed no-repeat !important;
-  }
 `;
 
 const StyledWrapper = styled.div`

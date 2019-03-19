@@ -24,7 +24,7 @@ const AboutUs = () => (
       <OurMission />
     </section>
     <hr />
-    <section className={`section `}>
+    <section className="section">
       <OfficeHours />
     </section>
     <hr />

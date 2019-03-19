@@ -39,10 +39,13 @@ const Layout = ({ children }) => (
                   <br />
                   <Link to="/summer">Summer</Link>
                 </div>
-                <div className="column">
+                <div className="column ">
                   <h6>Contact</h6>
                   <p>211 S Madison</p>
-                  <p>620-544-4675</p>
+                  <p className="deskTel">620-544-4675</p>
+                  <a className="mobileTel" href="tel:6205444675">
+                    620-544-4675
+                  </a>
                   <p>hugrec@pld.com</p>
                 </div>
               </div>
