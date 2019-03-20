@@ -65,13 +65,14 @@ const StyledBackgroundSection = styled(BackgroundSection)`
   .gatsby-background-image-gbi:after {
     background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
       url(${props => props.img}) center/cover fixed no-repeat !important;
+    z-index: -1;
   }
 `;
 
 const StyledWrapper = styled.div`
   .gatsby-background-image-gbi:after {
     background-repeat: repeat-y !important;
-    z-index: 0;
+    z-index: -2;
   }
 `;
 
