@@ -7,7 +7,7 @@ import Banner from "./banner";
 const BackgroundSection = ({
   objFit = `cover`,
   objPosition = `50% 50%`,
-  Children,
+  children,
   className,
   ...props
 }) => (
@@ -29,18 +29,20 @@ const BackgroundSection = ({
       return (
         <StyledWrapper>
           <BackgroundImage
-            Tag="section"
+            Tag="div"
             className={className}
             fluid={imageData}
-            backgroundColor={`#000`}
             classId="gbi"
+            style={{
+              position: `relative`
+            }}
             imgStyle={{
               objectFit: objFit,
               objectPosition: objPosition,
               fontFamily: `"object-fit: ${objFit}; object-position: ${objPosition}"`
             }}
           >
-            {Children}
+            {children}
             <Banner
               title="Hugoton Recreation Commission"
               subtitle="Proudly supporting the community of Hugoton"
@@ -56,23 +58,23 @@ const StyledBackgroundSection = styled(BackgroundSection)`
   width: 100vw;
   min-height: calc(70vh - 52px);
   background-repeat: repeat-y !important;
-  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-    url(${props => props.img}) center/cover fixed no-repeat !important;
+
   display: flex;
   align-items: center;
   justify-content: center;
-
-  .gatsby-background-image-gbi:after {
+  .gatsby-background-image-gbi:before {
     background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
       url(${props => props.img}) center/cover fixed no-repeat !important;
-    z-index: -2;
+  }
+  .gatsby-background-image-gbi:after {
+    background-repeat: repeat-y !important;
   }
 `;
 
 const StyledWrapper = styled.div`
-  .gatsby-background-image-gbi:after {
+  .gatsby-background-image-gbi:before {
     background-repeat: repeat-y !important;
-    z-index: -3;
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4));
   }
 `;
 

@@ -8,9 +8,7 @@ import Announcements from "../components/homePageComponents/announcements";
 
 const IndexPage = () => (
   <Layout>
-    <section>
-      <StyledBackgroundSection />
-    </section>
+    <StyledBackgroundSection />
 
     <SEO
       title="Home"
