@@ -96,10 +96,17 @@ const AnnouncementsWrapper = styled.div`
   }
   p {
     text-align: left;
-    margin-left: 3rem;
-    margin-right: 3rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    line-height: 1.7rem;
   }
   span {
     font-size: 0.75rem;
+  }
+  @media (min-width: 768px) {
+    p {
+      margin-left: 3rem;
+      margin-right: 3rem;
+    }
   }
 `;
