@@ -7,7 +7,8 @@ import moment from "moment";
 const CurrentActivities = ({ data }) => (
   <CurrentActivitiesWrapper>
     <div className="columns is-multiline">
-      {data.schedules ? (
+      {console.log(data.schedules.totalCount)}
+      {data.schedules > 0 ? (
         data.schedules.edges.map(item => (
           <div
             className={`is-parent column is-${
@@ -37,8 +38,8 @@ const CurrentActivities = ({ data }) => (
           </div>
         ))
       ) : (
-        <div>
-          <h3>There are no currently scheduled activities at the moment!</h3>
+        <div className="is-parent column is-12">
+          <p>There are no currently scheduled activities at the moment!</p>
         </div>
       )}
     </div>

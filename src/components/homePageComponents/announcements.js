@@ -42,7 +42,9 @@ class Announcements extends Component {
             </div>
           )}
           {data.announcements.totalCount > 3 ? (
-            <Link to="/announcements">See all Announcements</Link>
+            <Link to="/announcements" style={{ textAlign: "center" }}>
+              See all Announcements
+            </Link>
           ) : (
             <div />
           )}
@@ -93,7 +95,9 @@ const AnnouncementsWrapper = styled.div`
     display: table;
   }
   p {
-    text-align: center;
+    text-align: left;
+    margin-left: 3rem;
+    margin-right: 3rem;
   }
   span {
     font-size: 0.75rem;
