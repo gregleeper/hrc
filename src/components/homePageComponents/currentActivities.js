@@ -7,7 +7,6 @@ import moment from "moment";
 const CurrentActivities = ({ data }) => (
   <CurrentActivitiesWrapper>
     <div className="columns is-multiline">
-      {console.log(data.schedules.totalCount)}
       {data.schedules.totalCount ? (
         data.schedules.edges.map(item => (
           <div
