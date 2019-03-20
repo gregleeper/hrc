@@ -4,6 +4,7 @@ import { StaticQuery, graphql, Link } from "gatsby";
 //import "./all.sass";
 import "./layout.scss";
 import Navbar from "../components/globals/Navbar/Navbar";
+import FooterFBicon from "./globals/footerComponents/footerFBicon";
 
 const Layout = ({ children }) => (
   <StaticQuery
@@ -38,6 +39,10 @@ const Layout = ({ children }) => (
                   <Link to="/leisure">Leisure</Link>
                   <br />
                   <Link to="/summer">Summer</Link>
+                </div>
+                <div className="column">
+                  <h6>Follow us on Facebook</h6>
+                  <FooterFBicon style={{ display: "block" }} />
                 </div>
                 <div className="column ">
                   <h6>Contact</h6>
