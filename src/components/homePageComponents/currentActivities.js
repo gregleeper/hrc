@@ -8,7 +8,7 @@ const CurrentActivities = ({ data }) => (
   <CurrentActivitiesWrapper>
     <div className="columns is-multiline">
       {console.log(data.schedules.totalCount)}
-      {data.schedules > 0 ? (
+      {data.schedules.totalCount ? (
         data.schedules.edges.map(item => (
           <div
             className={`is-parent column is-${
