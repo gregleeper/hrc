@@ -107,7 +107,7 @@ const AnnouncementsWrapper = styled.div`
     text-align: center;
   }
   span {
-    font-size: 0.75rem;
+    font-size: 0.76rem;
   }
 
   padding: 3rem;
