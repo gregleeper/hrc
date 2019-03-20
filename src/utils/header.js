@@ -75,6 +75,7 @@ const StyledWrapper = styled.div`
   .gatsby-background-image-gbi:before {
     background-repeat: repeat-y !important;
     background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4));
+    opacity: 0.4;
   }
 `;
 
