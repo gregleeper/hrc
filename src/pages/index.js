@@ -10,7 +10,10 @@ import Announcements from "../components/homePageComponents/announcements";
 
 const IndexPage = () => (
   <Layout>
-    <StyledBackgroundSection />
+    <section>
+      <StyledBackgroundSection />
+    </section>
+
     <SEO
       title="Home"
       keywords={[`hugoton`, `recreation`, `sports`, "activites", "leisure"]}
