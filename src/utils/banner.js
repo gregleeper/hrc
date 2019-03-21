@@ -19,7 +19,7 @@ const BannerWrapper = styled.div`
     font-size: 1.5rem;
     font-weight: bold;
     text-transform: uppercase;
-    background: rgba(255, 0, 0, 0.7);
+    background: rgba(214, 14, 14, 0.7);
     ${styles.letterSpacing({ spacing: "0.35rem" })};
     border-style: solid;
     border-width: thick;
@@ -33,7 +33,7 @@ const BannerWrapper = styled.div`
     ${styles.textSlanted};
     font-size: 1.25rem;
     font-weight: bold;
-    background: rgba(255, 0, 0, 0.7);
+    background: rgba(214, 14, 14, 0.7);
     margin-left: 4rem;
     margin-right: 4rem;
   }
