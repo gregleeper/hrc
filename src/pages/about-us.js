@@ -10,30 +10,32 @@ import Board from "../components/aboutPageComponents/board";
 const AboutUs = () => (
   <Layout>
     <SEO title="About Us" />
-    <h1
-      style={{
-        fontSize: "1.75rem",
-        color: `${styles.colors.mainBlue}`,
-        textAlign: "center",
-        marginTop: "1.5rem"
-      }}
-    >
-      About Hugoton Rec
-    </h1>
-    <section className="section">
-      <OurMission />
-    </section>
-    <hr />
-    <section className="section">
-      <OfficeHours />
-    </section>
-    <hr />
-    <section className="section">
-      <Staff />
-    </section>
-    <section className="section">
-      <Board />
-    </section>
+    <div className="container">
+      <h1
+        style={{
+          fontSize: "1.75rem",
+          color: `${styles.colors.mainBlue}`,
+          textAlign: "center",
+          marginTop: "1.5rem"
+        }}
+      >
+        About Hugoton Rec
+      </h1>
+      <section className="section">
+        <OurMission />
+      </section>
+      <hr />
+      <section className="section">
+        <OfficeHours />
+      </section>
+      <hr />
+      <section className="section">
+        <Staff />
+      </section>
+      <section className="section">
+        <Board />
+      </section>
+    </div>
   </Layout>
 );
 
