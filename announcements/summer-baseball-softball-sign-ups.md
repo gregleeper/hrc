@@ -6,29 +6,29 @@ Sign-ups for following baseball/softball leagues begin Monday, April 1 and end M
 
 Softball leagues:
 
-****[**Pee Wee Softball**](https://s3.amazonaws.com/hrc-signups/Pee+Wee+Junior+Softball.pdf) **\- Girls 1st to 3rd grade**
+**Girls 1st to 3rd grade -** [Pee Wee Softball](https://s3.amazonaws.com/hrc-signups/Pee+Wee+Junior+Softball.pdf)
 
-****[**Junior Fast Pitch Softball**](https://s3.amazonaws.com/hrc-signups/Pee+Wee+Junior+Softball.pdf) **– Girls 4th to 6th Grade**
+**Girls 4th to 6th Grade -** [Junior Fast Pitch Softball](https://s3.amazonaws.com/hrc-signups/Pee+Wee+Junior+Softball.pdf) 
 
-****[**Fast Pitch Softball**](https://s3.amazonaws.com/hrc-signups/Senior+Babe+Ruth.pdf) **– 7th grade and up**
+**7th grade and up -** [Fast Pitch Softball](https://s3.amazonaws.com/hrc-signups/Senior+Babe+Ruth.pdf) 
 
 Baseball Leagues:
 
-**7-9 yr olds –** [**Machine Pitch**](https://s3.amazonaws.com/hrc-signups/Cal+Ripken+Major+and+Minor.pdf)****
+**7-9 yr olds –** [Machine Pitch](https://s3.amazonaws.com/hrc-signups/Cal+Ripken+Major+and+Minor.pdf)
 
 \*Cost $20 for shirt and hat\*
 
 $25 if needing pants
 
-**10-12 yr olds –** [**Cal Ripken**](https://s3.amazonaws.com/hrc-signups/Cal+Ripken+Major+and+Minor.pdf)****
+**10-12 yr olds –** [Cal Ripken](https://s3.amazonaws.com/hrc-signups/Cal+Ripken+Major+and+Minor.pdf)
 
-\*Cost $20 for shirt and hat\*
+   \*Cost $20 for shirt and hat\*
 
-$25 if needing pants
+   $25 if needing pants
 
-**13 – 15 yrs. -** [**Babe Ruth**](https://s3.amazonaws.com/hrc-signups/Senior+Babe+Ruth.pdf)****
+**13 – 15 yrs. -** [Babe Ruth](https://s3.amazonaws.com/hrc-signups/Senior+Babe+Ruth.pdf)
 
-$35 For Hat Shirt and Belted Pants
+   $35 For Hat Shirt and Belted Pants
 
 Youth baseball teams will be reshuffled on a yearly basis due to new leagues being formed.
 
