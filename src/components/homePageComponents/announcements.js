@@ -108,7 +108,7 @@ const AnnouncementsWrapper = styled.div`
   }
   ul li {
     list-style-type: circle;
-    margin-left: 4rem;
+    margin-left: 2rem;
   }
   span {
     font-size: 0.75rem;
