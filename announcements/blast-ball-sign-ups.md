@@ -4,4 +4,4 @@ title: Blast Ball Sign Ups
 ---
 Blast Ball sign ups  starting Monday, March 18th. Must be 4 by May 1st. Sign up at HRC office  8am-5pm, Monday - Friday. Cost is $10. 
 
-Any questions call 544-4675
+Any questions call 620-544-4675
