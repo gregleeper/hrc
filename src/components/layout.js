@@ -47,10 +47,16 @@ const Layout = ({ children }) => (
                 <div className="column ">
                   <h6>Contact</h6>
                   <p>211 S Madison</p>
-                  <p className="deskTel">620-544-4675</p>
-                  <a className="mobileTel" href="tel:6205444675">
-                    620-544-4675
-                  </a>
+                  <div>
+                    <p className="deskTel">620-544-4675</p>
+                  </div>
+
+                  <div>
+                    <a className="mobileTel" href="tel:6205444675">
+                      620-544-4675
+                    </a>
+                  </div>
+                  <br />
                   <p>hugrec@pld.com</p>
                 </div>
               </div>

@@ -84,11 +84,19 @@ export default props => {
 };
 
 const AnnouncementsWrapper = styled.div`
+  h2 {
+    color: ${styles.colors.mainBlue};
+    text-align: center;
+    margin-bottom: 0.1rem;
+    font-size: 1.2rem;
+  }
   h3 {
     color: ${styles.colors.mainRed};
     text-align: center;
     margin-bottom: 0.5rem;
   }
+  margin-left: 1rem;
+  margin-right: 1rem;
   &::after {
     content: "";
     clear: both;
@@ -96,17 +104,18 @@ const AnnouncementsWrapper = styled.div`
   }
   p {
     text-align: left;
-    margin-left: 1rem;
-    margin-right: 1rem;
     line-height: 1.7rem;
+  }
+  ul li {
+    list-style-type: circle;
+    margin-left: 4rem;
+    margin-right: 4rem;
   }
   span {
     font-size: 0.75rem;
   }
   @media (min-width: 768px) {
-    p {
-      margin-left: 3rem;
-      margin-right: 3rem;
-    }
+    margin-left: 3rem;
+    margin-right: 3rem;
   }
 `;

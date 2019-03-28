@@ -6,6 +6,11 @@ const Board = () => {
   return (
     <BoardWrapper>
       <h3>Board Members</h3>
+      <p>Tom Frederick</p>
+      <p>Jan Leonard</p>
+      <p>Danny Ray</p>
+      <p>Adriana Alfaro</p>
+      <p>Stetson Honig</p>
     </BoardWrapper>
   );
 };

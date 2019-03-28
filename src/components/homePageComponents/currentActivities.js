@@ -73,6 +73,13 @@ export default props => {
   );
 };
 const CurrentActivitiesWrapper = styled.div`
+  h2 {
+    color: ${styles.colors.mainBlue};
+    text-align: center;
+    margin-bottom: 0.1rem;
+    margin-top: 0.7rem;
+    font-size: 1.2rem;
+  }
   h3 {
     color: ${styles.colors.mainRed};
     text-align: center;

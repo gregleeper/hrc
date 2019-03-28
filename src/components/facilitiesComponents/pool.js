@@ -1,6 +1,7 @@
 import React from "react";
 import FacilitiesWrapper from "./facilitiesWrapper";
 import PoolImage from "./poolImage";
+import { Link } from "gatsby";
 
 const Pool = () => {
   return (
@@ -26,7 +27,11 @@ const Pool = () => {
         <p>
           <i>Open Seasonally</i>
         </p>
-        <p>Available to rent for private parties</p>
+        <p>
+          <Link style={{ textAlign: "center" }} to="/summer/pool">
+            Available to rent for private parties
+          </Link>
+        </p>
       </div>
     </FacilitiesWrapper>
   );
