@@ -6,7 +6,9 @@ const PatConcannonFieldsImage = () => (
   <StaticQuery
     query={graphql`
       query {
-        placeholderImage: file(relativePath: { eq: "parsons-end.jpg" }) {
+        placeholderImage: file(
+          relativePath: { eq: "pat-concannon-field.jpg" }
+        ) {
           childImageSharp {
             fluid(maxWidth: 900) {
               ...GatsbyImageSharpFluid
