@@ -41,7 +41,7 @@ class Announcements extends Component {
               <h3>There are no announcements at the moment!</h3>
             </div>
           )}
-          {data.announcements.totalCount > 3 ? (
+          {data.announcements && data.announcements.totalCount > 3 ? (
             <Link to="/announcements" style={{ textAlign: "center" }}>
               See all Announcements
             </Link>
