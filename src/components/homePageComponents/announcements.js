@@ -37,8 +37,8 @@ class Announcements extends Component {
               </div>
             ))
           ) : (
-            <div>
-              <h3>There are no announcements at the moment!</h3>
+            <div className="is-parent column is-12">
+              <p>There are no announcements at the moment!</p>
             </div>
           )}
           {data.announcements && data.announcements.totalCount > 3 ? (
