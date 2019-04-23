@@ -9,7 +9,7 @@ class Announcements extends Component {
 
   render() {
     const { data } = this.props;
-    console.log(data.announcements.totalCount > 0);
+
     return (
       <AnnouncementsWrapper>
         <div className="columns is-multiline">
