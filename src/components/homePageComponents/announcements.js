@@ -13,7 +13,7 @@ class Announcements extends Component {
     return (
       <AnnouncementsWrapper>
         <div className="columns is-multiline">
-          {data.announcements.totalCount > 0 ? (
+          {data.announcements ? (
             data.announcements.edges.map(item => (
               <div className="is-parent column is-12" key={item.node.id}>
                 <div className="card">
