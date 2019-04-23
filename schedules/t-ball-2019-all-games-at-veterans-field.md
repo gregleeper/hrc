@@ -3,18 +3,6 @@ date: 2019-04-16T15:56:30.881Z
 title: T-Ball - 2019 - All Games At Veterans Field
 ---
 
-## Thursday, April 18th
-
-**Vets North**
-
-6:00 - Blue vs Moscow
-
-6:45 - Orange vs Red
-
-**Vets South**
-
-6:00 - Navy vs Green
-
 ## Tuesday, April 23rd
 
 **Vets North**

@@ -2,11 +2,6 @@
 date: 2019-04-16T17:42:09.068Z
 title: Blast Ball - 2019 All Games at Hugoton Rec Gymnasium
 ---
-## Monday, April 22nd
-
-6:00 - Moscow vs Alfaro
-
-6:30 - Reinerio vs Sullivan
 
 ## Monday, April 29th
 

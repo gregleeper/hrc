@@ -9,10 +9,11 @@ class Announcements extends Component {
 
   render() {
     const { data } = this.props;
+    console.log(data.announcements.totalCount > 0);
     return (
       <AnnouncementsWrapper>
         <div className="columns is-multiline">
-          {data.announcements ? (
+          {data.announcements.totalCount > 0 ? (
             data.announcements.edges.map(item => (
               <div className="is-parent column is-12" key={item.node.id}>
                 <div className="card">
@@ -38,7 +39,9 @@ class Announcements extends Component {
             ))
           ) : (
             <div className="is-parent column is-12">
-              <p>There are no announcements at the moment!</p>
+              <p style={{ textAlign: "center" }}>
+                There are no announcements at the moment!
+              </p>
             </div>
           )}
           {data.announcements && data.announcements.totalCount > 3 ? (
@@ -112,6 +115,7 @@ const AnnouncementsWrapper = styled.div`
   }
   span {
     font-size: 0.75rem;
+    text-align: center;
   }
   @media (min-width: 768px) {
     margin-left: 3rem;
