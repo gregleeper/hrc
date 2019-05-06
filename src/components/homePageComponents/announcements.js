@@ -65,7 +65,10 @@ export default props => {
         query {
           announcements: allMarkdownRemark(
             limit: 3
-            filter: { fileAbsolutePath: { regex: "/announcements/" } }
+            filter: {
+              fileAbsolutePath: { regex: "/announcements/" }
+              frontmatter: { title: { ne: "Placeholder" } }
+            }
             sort: { fields: [frontmatter___date], order: DESC }
           ) {
             totalCount

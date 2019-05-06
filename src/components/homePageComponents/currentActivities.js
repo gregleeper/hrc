@@ -51,7 +51,10 @@ export default props => {
       query={graphql`
         query {
           schedules: allMarkdownRemark(
-            filter: { fileAbsolutePath: { regex: "/schedules/" } }
+            filter: {
+              fileAbsolutePath: { regex: "/schedules/" }
+              frontmatter: { title: { ne: "Placeholder" } }
+            }
             sort: { fields: [frontmatter___date], order: DESC }
           ) {
             totalCount
