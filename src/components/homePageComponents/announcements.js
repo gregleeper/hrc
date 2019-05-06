@@ -39,6 +39,7 @@ class Announcements extends Component {
             ))
           ) : (
             <div className="is-parent column is-12">
+              {console.log("reached no announcements")}
               <p style={{ textAlign: "center" }}>
                 There are no announcements at the moment!
               </p>
