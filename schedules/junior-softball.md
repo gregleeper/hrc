@@ -4,8 +4,6 @@ title: Junior Softball
 ---
 **Home Team Listed First**
 
-****
-
 ## **Thursday, May 23rd**
 
 6:00 - Hustlers vs Bulldogs @Vets North
