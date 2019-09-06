@@ -55,7 +55,7 @@ export default props => {
               fileAbsolutePath: { regex: "/schedules/" }
               frontmatter: { title: { ne: "Placeholder" } }
             }
-            sort: { fields: [frontmatter___date], order: DESC }
+            sort: { fields: [frontmatter___title], order: ASC }
           ) {
             totalCount
             edges {
