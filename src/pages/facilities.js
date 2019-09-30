@@ -24,7 +24,8 @@ const Facilities = ({ props }) => {
           `recreation`,
           `sports`,
           "activites",
-          "leisure"
+          "leisure",
+          "rec"
         ]}
       />
       <div />

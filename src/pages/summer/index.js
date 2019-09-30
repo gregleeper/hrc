@@ -8,7 +8,7 @@ class SummerFun extends Component {
     return (
       <Layout>
         <SEO
-          title="Sports"
+          title="Summer Activities"
           keywords={[
             "swimming",
             "pool",

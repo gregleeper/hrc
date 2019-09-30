@@ -8,7 +8,7 @@ class FallSports extends Component {
   render() {
     return (
       <Layout>
-        <SEO title="Sports" />
+        <SEO title="Winter Sports" />
 
         <div
           className="tabs is-centered is-boxed"
