@@ -1,24 +1,9 @@
 ---
 date: 2019-09-06T13:00:03.954Z
-title: 'Football - 5th/6th Grade '
+title: "Football - 5th/6th Grade "
 ---
+
 All games played at Parsons Sports Park, 3rd & Washington
-
-## Monday, Sept 16th
-
-5:30 - Chiefs vs Broncos
-
-## Tuesday, Sept 17th
-
-5:30 - Broncos vs Chargers
-
-## Monday, Sept 23rd
-
-5:30 - Chiefs vs Chargers
-
-## Tuesday, Sept 24th
-
-5:30 - Broncos vs Chiefs
 
 ## Monday, Sept 30th
 

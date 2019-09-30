@@ -12,7 +12,18 @@ const IndexPage = () => (
 
     <SEO
       title="Home"
-      keywords={[`hugoton`, `recreation`, `sports`, "activites", "leisure"]}
+      keywords={[
+        `hugoton`,
+        `recreation`,
+        `sports`,
+        "activites",
+        "leisure",
+        "swimming",
+        "rec",
+        "summer",
+        "stevens county",
+        "stevens"
+      ]}
     />
     <div className="container">
       <SectionWrapper>
