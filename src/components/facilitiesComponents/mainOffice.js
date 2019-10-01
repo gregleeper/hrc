@@ -1,7 +1,5 @@
 import React from "react";
 import MainOfficeImage from "./mainOfficeImage";
-import styled from "styled-components";
-import { styles } from "../../utils";
 import FacilitiesWrapper from "./facilitiesWrapper";
 
 const MainOffice = () => {
