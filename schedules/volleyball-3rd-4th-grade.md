@@ -5,7 +5,7 @@ title: Volleyball - 3rd/4th Grade
 
 All games played at HRC Gym, 211 S. Madison
 
-## Tuesday, Oct 1st
+## Thursday, Oct 3rd
 
 5:30 - Flash vs Flames
 

@@ -5,11 +5,7 @@ title: Football - 3rd/4th Grade
 
 All games played at Parsons Sports Park, 3rd & Washington
 
-## Monday, Sept 30th
-
-6:30 - Packers vs Lions
-
-## Tuesday, Oct 1st
+## Thursday, Oct 3rd
 
 6:30 - Packers vs Bears
 

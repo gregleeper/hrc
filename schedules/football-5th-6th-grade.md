@@ -5,11 +5,7 @@ title: "Football - 5th/6th Grade "
 
 All games played at Parsons Sports Park, 3rd & Washington
 
-## Monday, Sept 30th
-
-5:30 - Chargers vs Broncos
-
-## Tuesday, Oct 1st
+## Thursday, Oct 3rd
 
 5:30 - Chargers vs Chiefs
 

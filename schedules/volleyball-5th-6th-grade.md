@@ -5,14 +5,6 @@ title: Volleyball - 5th/6th Grade
 
 All games played at HRC Gym, 211 S. Madison
 
-## Monday, Sept 30th
-
-5:30 - Sparks vs Twisters
-
-6:30 - Sparks vs Spirit
-
-7:30 - Crush vs Moscow
-
 ## Monday, Oct 7th
 
 5:30 - Crush vs Spirit

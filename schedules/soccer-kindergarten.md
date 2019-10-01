@@ -5,7 +5,7 @@ title: Soccer - Kindergarten
 
 All games played at Parsons Sports Park, 3rd & Washington
 
-## Tuesday, Oct 1st
+## Thursday, Oct 3rd
 
 5:30 - Half Pints vs Midgets
 

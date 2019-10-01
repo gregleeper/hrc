@@ -5,15 +5,7 @@ title: Soccer - 1st/2nd Grade
 
 All games played at Parsons Sports Park, 3rd & Washington
 
-## Monday, Sept 30th
-
-5:30 - Flyers vs Wizards
-
-6:15 - Blaze vs Rolla
-
-7:00 - Lightning vs Moscow
-
-## Tuesday, Oct 1st
+## Thursday, Oct 3rd
 
 5:30 - Moscow vs Blaze
 
