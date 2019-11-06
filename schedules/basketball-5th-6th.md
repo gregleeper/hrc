@@ -1,6 +1,6 @@
 ---
 date: 2019-11-06T08:16:55.841Z
-title: Boys Basketball 3rd/4th - 2019
+title: Boys Basketball 5th/6th - 2019
 ---
 
 ## Saturday, November 16th
