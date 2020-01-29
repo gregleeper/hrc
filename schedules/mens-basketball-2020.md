@@ -1,6 +1,6 @@
 ---
 date: 2020-01-29T08:16:55.841Z
-title: Girls Basketball 3rd/4th - 2020
+title: Mens Basketball - 2020
 ---
 
 ## Wednesday, January 29th
