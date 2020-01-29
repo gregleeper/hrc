@@ -8,7 +8,7 @@ class SummerSports extends Component {
   render() {
     return (
       <Layout>
-        <SEO title="Summer Sports" />
+        <SEO title="Sports" />
 
         <div
           className="tabs is-centered is-boxed"
@@ -18,7 +18,9 @@ class SummerSports extends Component {
             <li>
               <Link to="/sports/spring-sports">Spring</Link>
             </li>
-            <li className="is-active">Summer</li>
+            <li className="is-active">
+              <a>Summer</a>
+            </li>
             <li>
               <Link to="/sports/fall-sports">Fall</Link>
             </li>

@@ -1,6 +1,10 @@
 import React from "react";
 import Layout from "../components/layout";
 import SEO from "../components/seo";
+import bobSosa from "../images/bob-sosa-building.jpg";
+import parsons from "../images/parsons-end.jpg";
+import pool from "../images/pool-front.jpg";
+import veterans from "../images/veterans-field.jpg";
 import BobSosa from "../components/facilitiesComponents/bobSosaBuilding";
 import MainOffice from "../components/facilitiesComponents/mainOffice";
 import LegendsField from "../components/facilitiesComponents/legendsField";
@@ -20,8 +24,7 @@ const Facilities = ({ props }) => {
           `recreation`,
           `sports`,
           "activites",
-          "leisure",
-          "rec"
+          "leisure"
         ]}
       />
       <div />

@@ -8,10 +8,7 @@ class SwimmingPool extends Component {
   render() {
     return (
       <Layout>
-        <SEO
-          title="Pool"
-          keywords={["swimming", "pool", "swimming pool", "swim"]}
-        />
+        <SEO title="Sports" keywords={[]} />
         <div
           className="tabs is-centered is-boxed"
           style={{ marginTop: "1rem" }}

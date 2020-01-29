@@ -10,7 +10,7 @@ class AdultSportsPage extends Component {
     return (
       <Layout>
         <SEO
-          title="Adult Sports"
+          title="Sports"
           keywords={[
             "tumbling",
             "gymnastics",

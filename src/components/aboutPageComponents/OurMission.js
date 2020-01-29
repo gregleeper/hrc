@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "styled-components";
+import { FaHandsHelping } from "react-icons/fa";
 import { styles } from "../../utils";
 
 const OurMission = () => {

@@ -1,6 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import { styles } from "../../utils";
+import { transDefault } from "../../utils/styles";
 
 const PoolInfo = () => {
   return (
