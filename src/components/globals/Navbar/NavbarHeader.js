@@ -43,8 +43,7 @@ const Brand = styled(Link)`
   font-family: "Tahoma", sans-serif;
   font-size: 1.875em;
   font-weight: bold;
-
-  margin-right: 0.5em;
+  margin-left: 10px;
   text-decoration: none;
   &:focus,
   &:hover,

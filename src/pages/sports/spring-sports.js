@@ -11,7 +11,7 @@ class SportsPage extends Component {
     return (
       <Layout>
         <SEO
-          title="Sports"
+          title="Spring Sports"
           keywords={[
             "spring sports",
             "youth sports",

@@ -7,7 +7,20 @@ class SummerFun extends Component {
   render() {
     return (
       <Layout>
-        <SEO title="Sports" keywords={[]} />
+        <SEO
+          title="Summer Activities"
+          keywords={[
+            "swimming",
+            "pool",
+            "hugoton",
+            "swim",
+            "swimming pool",
+            "swimming lessons",
+            "lessons",
+            "rec",
+            "recreation"
+          ]}
+        />
         <div
           className="tabs is-centered is-boxed"
           style={{ marginTop: "1rem" }}

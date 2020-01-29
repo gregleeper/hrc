@@ -14,7 +14,13 @@ class Announcements extends Component {
       <Layout>
         <SEO
           title="Announcements"
-          keywords={["announcments", "hugoton rec", "activities", "current"]}
+          keywords={[
+            "announcments",
+            "hugoton rec",
+            "activities",
+            "current",
+            "hugoton"
+          ]}
         />
         <AnnouncementsWrapper className="container">
           <h2>Announcements</h2>
