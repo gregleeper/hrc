@@ -27,6 +27,7 @@
     "gatsby-transformer-remark": "^2.6.49",
     "gatsby-transformer-sharp": "^2.3.13",
     "gatsby-transformer-sqip": "^2.1.63",
+    "graphql": "^14.6.0",
     "intersection-observer": "^0.5.1",
     "moment": "^2.24.0",
     "netlify-cms": "^2.10.14",
