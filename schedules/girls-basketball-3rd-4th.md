@@ -9,25 +9,25 @@ title: Girls Basketball 3rd/4th - 2020
 
 6:15pm Moscow vs Dream
 
-## Monday, Febrary 10th
+## Monday, February 10th
 
 5:30pm Moscow vs Dream
 
 6:15pm Moscow vs Sparks
 
-## Monday, Febrary 17th
+## Monday, February 17th
 
 5:30pm Sparks vs Dream
 
 6:15pm Sparks vs Moscow
 
-## Thursday, Febrary 20th
+## Thursday, February 20th
 
 5:30pm Dream vs Sparks
 
 6:15pm Moscow vs Dream
 
-## Monday, Febrary 24th
+## Monday, February 24th
 
 5:30pm Moscow vs Dream
 
