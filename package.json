@@ -28,7 +28,7 @@
     "gatsby-transformer-sqip": "^2.1.63",
     "graphql": "^14.6.0",
     "intersection-observer": "^0.5.1",
-    "moment": "^2.24.0",
+    "moment": "^2.29.2",
     "netlify-cms-app": "^2.11.11",
     "netlify-identity-widget": "^1.5.6",
     "node-sass": "^4.13.1",
