@@ -23,7 +23,7 @@
     "gatsby-plugin-styled-components": "^3.1.18",
     "gatsby-remark-images-contentful": "^2.1.30",
     "gatsby-source-filesystem": "^2.1.47",
-    "gatsby-transformer-remark": "^2.6.49",
+    "gatsby-transformer-remark": "^5.25.1",
     "gatsby-transformer-sharp": "^2.3.13",
     "gatsby-transformer-sqip": "^2.1.63",
     "graphql": "^14.6.0",
